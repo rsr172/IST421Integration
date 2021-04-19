@@ -2,40 +2,6 @@
 <html lang="en">
 <head>
 
-<?php
-
-$servername = "localhost";
-$username = "BaseUser";
-$password = "";
-$dbname = "davidsonrentalsdb";
-
-	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
-	// Check connection
-	if ($conn->connect_error) {
-	die("Connection failed: " . $conn->connect_error);
-	}
-
-	$sql = "SELECT Account_ID, firstname, lastname, phonenumber, email FROM user_signup";
-
-	$result = $conn->query($sql);
-	 
-	if ($result->num_rows > 0) {
-		//outputs results and assigned them to a variable
-		while($row = $result->fetch_assoc()) {
-		  
-		$Fname =$row["firstname"];
-		$Lname =$row["lastname"];
-		$phonenumber =$row["phonenumber"];
-		$email =$row["email"];
-		
-		}
-	  } else {
-		echo "Please Complete Profile Page";
-	  }
-
-	$conn->close();
-?>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -85,19 +51,19 @@ $dbname = "davidsonrentalsdb";
 		 <hr>
 
 		 <label for="firstname"><b>First Name</b></label>
-		 <input type="text" placeholder="Enter" name="firstname" required><br>
+		 <input type="text" id="firstname" name="firstname" required><br>
 
-		 <label for="Lastname"><b>Last Name</b></label>
-		 <input type="text" placeholder="Enter" name="Lastname" required><br>
+		 <label for="lastname"><b>Last Name</b></label>
+		 <input type="text" id="lastname" name="lastname" required><br>
 
-		 <label for="Phone"><b>Phone Number</b></label>
-		 <input type="text" placeholder="Enter" number="phone" required><br>
+		 <label for="phone"><b>Phone Number</b></label>
+		 <input type="text" id="phone" name="phone" required><br>
 
 		 <label for="email"><b>Email</b></label>
-		 <input type="text" placeholder="Enter"  name="email" required><br>
+		 <input type="text" id="email"  name="email" required><br>
 	 
 		 <label for="psw"><b>Password</b></label>
-		 <input type="password" placeholder="Enter" name="psw" required><br>
+		 <input type="password" id="psw" name="psw" required><br>
 		 
 		 <label>
 		   <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
@@ -106,7 +72,7 @@ $dbname = "davidsonrentalsdb";
 		 <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 	 
 		 <div class="clearfix">
-		   <button type="submit" onclick="location.href='landingPG.php'" class="signupbtn">Sign Up</button>
+		   <button type="submit" class="signupbtn">Sign Up</button>
 		 </div>
 	   </div>
 	 </form>

@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT Account_ID, Make, Model, Year, Mileage, price FROM car_info";
+$sql = "SELECT Make, Model, Year, Mileage, price FROM car_info WHERE Account_ID ='1'";
 
 $result = $conn->query($sql);
 
