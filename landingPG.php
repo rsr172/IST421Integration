@@ -2,42 +2,6 @@
 <html lang="en">
 <head>
 
-<?php
-
-$servername = "localhost";
-$username = "BaseUser";
-$password = "";
-$dbname = "davidsonrentalsdb";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SELECT Make, Model, Year, Mileage, price FROM car_info WHERE Account_ID ='1'";
-
-$result = $conn->query($sql);
-
-
-if ($result->num_rows > 0) {
-
-while($row = $result->fetch_assoc()) {
-
-$Make =$row["Make"];
-$Model =$row["Model"];
-$Year =$row["Year"];
-$Mileage =$row["Mileage"];
-$price =$row["price"];
-}
-} else {
-echo "Please Complete Profile Page";
-}
-
-
-$conn->close();
-?>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -97,18 +61,32 @@ $conn->close();
 
 	  <!-- services section
 	  -->
-	  <div class="search">
-	  <form action="newCar.php" method="post">
-		<div class="form-box">
-			<input type="text" class="search-field business" placeholder="Car make">Make </input>
-			<input type="text" class="search-field location" placeholder="Car model">Model</input>
-			<input type="text" class="search-field business" placeholder="Car year">Year</input>
-			<input type="text" class="search-field location" placeholder="Car mileage">Mileage</input>
-			<input type="text" class="search-field business" placeholder="Car price">Price</input>
+		<form action="indPGin.php" method="post" style="border:1px solid #ccc">
+	   	 <div class="container">
 
-			<button class="search-btn" type="submit"> Search </button>
-		</div>
-		</form>
+		 <label for="Make"><b> Make</b></label>
+		 <input type="text" id="Make" name="Make" required><br>
+
+		 <label for="Model"><b> Model</b></label>
+		 <input type="text" id="Model" name="Model" required><br>
+
+		 <label for="phone"><b> Year</b></label>
+		 <input type="text" id="Year" name="Year" required><br>
+
+		 <label for="Mileage"><b>Mileage</b></label>
+		 <input type="text" id="Mileage"  name="Mileage" required><br>
+	 
+		 <label for="Price"><b>Price</b></label>
+		 <input type="password" id="Price" name="Price"  required><br>
+		 
+	 
+		 <div class="clearfix">
+		   <button type="submit" class="search-btn">Search</button>
+		 </div>
+	   </div>
+	 </form>
+
+			
 	</div>
 
 

@@ -16,20 +16,21 @@
       die("Connection failed: " . $conn->connect_error);
     } else {
       
-        $fname = $_POST["firstname"];
-        $lname = $_POST["lastname"];
-        $phone = $_POST["phone"];
-        $email = $_POST["email"];
+           $make = $_POST["make"];
+          $model = $_POST["model"];
+           $year = $_POST["year"];
+        $mileage = $_POST["mileage"];
+          $price = $_POST["price"];
 
-        $sql = "INSERT INTO user_signup (FirstName, LastName, PhoneNumber, Email)
-        VALUES ('$fname', '$lname', '$phone', '$email')";
+        $sql = "INSERT INTO car_info (Make, Model, Year, Mileage, Price)
+        VALUES ('$make', '$model', '$year', '$mileage', '$price')";
         
         if ($conn->query($sql) === TRUE) 
             {
 
             $conn->close();
-            header("Location: http://localhost/landingPG.php");
-                        exit();
+            header("Location: http://localhost/newcar.php");
+                        exit();;
            
             } else {
           echo "Error updating record: " . $conn->error;
