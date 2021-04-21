@@ -46,7 +46,7 @@
                 <img src="https://automobiles.honda.com/platform/api/v4/images/exterior/02?config=M:RW1H5MJW$EC:NH-731P$HC:undefined$IC:BK$O:$F:FIFS$ECC:BK$ECX:&width=1400" width="150px" alt="Image">
                 <figcaption>
                     <div>
-                        <p>2017 Honda HR-V</p>
+                        <p>2017 Honda CR-V</p>
                         <p>$8,500.00</p>
                         <p>
                             <br>
