@@ -16,11 +16,11 @@
       die("Connection failed: " . $conn->connect_error);
     } else {
       
-           $make = $_POST["make"];
-          $model = $_POST["model"];
-           $year = $_POST["year"];
-        $mileage = $_POST["mileage"];
-          $price = $_POST["price"];
+           $make = $_POST["Make"];
+          $model = $_POST["Model"];
+           $year = $_POST["Year"];
+        $mileage = $_POST["Mileage"];
+          $price = $_POST["Price"];
 
         $sql = "INSERT INTO car_info (Make, Model, Year, Mileage, Price)
         VALUES ('$make', '$model', '$year', '$mileage', '$price')";

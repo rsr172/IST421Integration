@@ -77,7 +77,7 @@
 		 <input type="text" id="Mileage"  name="Mileage" required><br>
 	 
 		 <label for="Price"><b>Price</b></label>
-		 <input type="password" id="Price" name="Price"  required><br>
+		 <input type="text" id="Price" name="Price"  required><br>
 		 
 	 
 		 <div class="clearfix">
