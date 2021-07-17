@@ -49,7 +49,7 @@
 	 <div class="main" >
 		 <div class="main__container">
 			 <div class="main__content">
-				 <h1>Davidson Auto Rentals</h1>
+				 <h1>Romulus Auto Rentals</h1>
 				 <h2>Collection of thousands comfortable cars</h2>
 				 <p>See what makes us different.</p>
 				 <button class="main__btn"><a href="index.html">Get started</a></button>
