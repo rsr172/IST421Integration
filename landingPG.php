@@ -18,7 +18,7 @@
 	<!--navbar section-->
     <nav class="navbar">
     	<div class="navbar__container">
-    		<a href="index.html" id="navbar__logo"> <i class="fas fa-car-side"></i> &nbsp; Davidson Rentals</a>
+    		<a href="index.html" id="navbar__logo"> <i class="fas fa-car-side"></i> &nbsp; Romulus Rentals</a>
     		<div class="navbar__toggle" id="mobile-menu">
     		  <span class="bar"></span>
            <span class="bar"></span>
@@ -98,7 +98,7 @@
 			  <div class="footer__link--wrapper">
 				  <div class="footer__link--items">
 					  <h2>About Us</h2>
-					  <a href="/">Davidson car rentals is the best car rental in Philadelphia, PA.</a>
+					  <a href="/">Romulus car rentals is the best car rental in Philadelphia, PA.</a>
 					  <a href="/">We're on a mission to enable simple and responsible urban living—a future filled with more car-sharing members than car owners in major cities across the globe.</a>
 
 				  </div>
