@@ -126,7 +126,7 @@
 		  </div>
 		  <div class="social__media">
 			  <div class="social__media--wrap">
-				  <p class="website__rights"> &nbsp&nbsp&nbsp DavidsonAuto 2021. All rights reserved &nbsp&nbsp&nbsp&nbsp&nbsp</p>
+				  <p class="website__rights"> &nbsp&nbsp&nbsp Romulus Auto 2022. All rights reserved &nbsp&nbsp&nbsp&nbsp&nbsp</p>
 				  <div class="social__icon">
 					  <a href="https://www.facebook.com/" class="social__icon--link" target ="_blank">
 					<i class="fab fa-facebook"></i>
