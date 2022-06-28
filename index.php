@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign and drive | Davidson</title>
+    <title>Sign and drive | Romulus </title>
     <link rel="stylesheet" href="../DavidsonCarRental/Style.css" />
 	<link rel="stylesheet" href="../DavidsonCarRental/signup_css.css"/>
 	 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,7 +20,7 @@
 	<!--navbar section-->
     <nav class="navbar">
     	<div class="navbar__container">
-    		<a href="../DavidsonCarRental/index.html" id="navbar__logo"> <i class="fas fa-car-side"></i> &nbsp; Davidson Rentals</a>
+    		<a href="../DavidsonCarRental/index.html" id="navbar__logo"> <i class="fas fa-car-side"></i> &nbsp; Romulus Rentals</a>
     		<div class="navbar__toggle" id="mobile-menu">
     		  <span class="bar"></span>
            <span class="bar"></span>
@@ -84,13 +84,13 @@
 			  <div class="footer__link--wrapper">
 				  <div class="footer__link--items">
 					<h2>About Us</h2>
-					  <a href="/">Davidson car rentals is the best car rental in Philadelphia, PA.</a>
+					  <a href="/">Romulus car rentals is the best car rental in Philadelphia, PA.</a>
 					  <a href="/">We're on a mission to enable simple and responsible urban living—a future filled with more car-sharing members than car owners in major cities across the globe.</a>
 
 				  </div>
 				  <div class="footer__link--items">
 					<h2>Contact Us</h2>
-					<a href="/">If you would like to get in contact with us, please do not hesitate to email us @DavidsonCarRental.com.</a>
+					<a href="/">If you would like to get in contact with us, please do not hesitate to email us @RomulusCarRental.com.</a>
 					<a href="/">Or give us a call at our main office location in Philadelphia, PA 1-800-673-4367.</a>
 
 				</div>
@@ -98,14 +98,14 @@
 			  <div class="footer__link--wrapper">
 				<div class="footer__link--items">
 					<h2>Careers with Us</h2>
-					<a href="/">If you would like to join the DavidsonCarRental Team, simply click this link to our careers page. https://www.DavidsonCarRental@hire.com</a>
+					<a href="/">If you would like to join the RomulusCarRental Team, simply click this link to our careers page. https://www.RomulusCarRental@hire.com</a>
 					<a href="/">Learn about all the different opportunities that the company has to offer.</a>
 					<a href="/">Careers</a>
 
 				</div>
 				<div class="footer__link--items">
 					<h2>More about Us</h2>
-					<a href="/">Want to know more about DavidsonAuto?</a>
+					<a href="/">Want to know more about RomulusAuto?</a>
 					<a href="/">Locally, we help urbanites get around with more convenience, less traffic, and on-demand access to vehicles right in their neighborhood.</a>
    
 
@@ -115,9 +115,9 @@
 		  <div class="social__media">
 			  <div class="social__media--wrap">
 				  <div class="footer__logo">
-					  <a href="index.html" id="footer__logo"><i class="fas fa-car-side"></i>&nbsp; Davidson</a>
+					  <a href="index.html" id="footer__logo"><i class="fas fa-car-side"></i>&nbsp; Romulus</a>
 				  </div>
-				  <p class="website__rights"> &nbsp&nbsp&nbsp DavidsonAuto 2021. All rights reserved &nbsp&nbsp&nbsp&nbsp&nbsp</p>
+				  <p class="website__rights"> &nbsp&nbsp&nbsp RomulusAuto 2021. All rights reserved &nbsp&nbsp&nbsp&nbsp&nbsp</p>
 				  <div class="social__icon">
 					  <a href="https://www.facebook.com/" class="social__icon--link" target ="_blank">
 					<i class="fab fa-facebook"></i>
