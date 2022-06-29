@@ -55,7 +55,7 @@
 				 <button class="main__btn"><a href="index.html">Get started</a></button>
 			 </div>
 			 <div class="name_img--container">
-				 <img src="../IST421Integration-main/images/muscle car backgrounds for desktop wallpaper.jpg" alt="pic" id="main__img">
+				 <img src="https://wallpapercave.com/dwp1x/Frmo5js.jpg" style="width: 800px;" alt="pic" id="main__img">
 		 </div>
 	 </div>
 
@@ -64,19 +64,19 @@
 		<form action="indPGin.php" method="post" style="border:1px solid #ccc">
 	   	 <div class="container">
 
-		 <label for="Make"><b> Make</b></label>
+		 <label for="Make" style="color: white" ><b> Make</b></label>
 		 <input type="text" id="Make" name="Make" required><br>
 
-		 <label for="Model"><b> Model</b></label>
+		 <label for="Model" style="color: white" ><b> Model</b></label>
 		 <input type="text" id="Model" name="Model" required><br>
 
-		 <label for="phone"><b> Year</b></label>
+		 <label for="phone" style="color: white" ><b> Year</b></label>
 		 <input type="text" id="Year" name="Year" required><br>
 
-		 <label for="Mileage"><b>Mileage</b></label>
+		 <label for="Mileage" style="color: white" ><b>Mileage</b></label>
 		 <input type="text" id="Mileage"  name="Mileage" required><br>
 	 
-		 <label for="Price"><b>Price</b></label>
+		 <label for="Price" style="color: white" ><b>Price</b></label>
 		 <input type="text" id="Price" name="Price"  required><br>
 		 
 	 
